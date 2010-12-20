@@ -225,8 +225,8 @@ class Instant2Press(object):
                 
         self.load_mod_users()
         self.load_mod_siteinfo()
-        self.load_mod_categories()
         self.load_mod_articles()
+        self.load_mod_categories()        
         self.load_mod_tags()
         self.load_mod_comments()
         self.load_mod_links()
@@ -249,9 +249,9 @@ class Instant2Press(object):
     
     def db_definitions(self):
         
-        self.define_siteinfo()
-        self.define_categories()
+        self.define_siteinfo()        
         self.define_articles()
+        self.define_categories()
         self.define_tags()
         self.define_comments()
         self.define_links()
